@@ -1,0 +1,6 @@
+sudo !! - execute last command with sudo
+
+C-s - look forward in bash history
+
+history | grep "part of the command"
+![number of command]
