@@ -6,3 +6,7 @@ history | grep "part of the command"
 ![number of command]
 
 alt-. - paste previous command arguments
+
+Interesting projects:
+nano replacement https://micro-editor.github.io/
+Rofi: A window switcher, application launcher and dmenu replacement https://github.com/DaveDavenport/rofi
