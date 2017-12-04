@@ -5,7 +5,11 @@ C-s - look forward in bash history
 history | grep "part of the command"
 ![number of command]
 
-alt-. - paste previous command arguments
+alt+backspace/d 	(delete to the start/end of the word)
+ctrl+a/e 			(go to the start/end of the line)
+alt+left/right 		(go to next/previous word)
+ctrl+u/k 			(delete to the start/end of the line)
+alt+. 				(paste last argument from previous command, can be used repeatedly)
 
 Interesting projects:
 nano replacement https://micro-editor.github.io/
