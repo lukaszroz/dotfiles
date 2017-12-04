@@ -16,8 +16,8 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=1000000
+HISTFILESIZE=2000000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -121,3 +121,8 @@ alias upspin-jngl="$HOME/bin/upspin -config=$HOME/upspin/jngl.config"
 
 alias upspinfs-gcp="nohup upspinfs -config ~/upspin/gcp.config ~/ufs/ &> upspin/gcp_fs.log &"
 alias upspinfs-jngl="nohup upspinfs -config ~/upspin/jngl.config ~/jngl/ &> upspin/jngl_fs.log &"
+
+PROMPT_COMMAND='history -a'
+
+#disable XON/XOFF so C-s works for searching forward in history
+stty -ixon
