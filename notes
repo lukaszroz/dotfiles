@@ -4,3 +4,5 @@ C-s - look forward in bash history
 
 history | grep "part of the command"
 ![number of command]
+
+alt-. - paste previous command arguments
